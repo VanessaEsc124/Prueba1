@@ -1,0 +1,128 @@
+.header{
+    height: 175px;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 1165px;
+    margin: 0 auto;
+    height: inherit;
+}
+.Logos{
+    height: inherit;
+    display: flex;
+    width: 370px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.pinkLine{
+    height: 12px;
+    background:#ee005f;
+}
+.linea{
+    border-top: 1px solid #333;
+    height: 1px;
+    width: inherit;
+}
+.mitad{
+    display: flex;
+    margin: 70px 0 0 0;
+    /* align-items: center; */
+    height: 450px;
+}
+.descripcion{
+    width: 780px;
+    margin: 0 112px 0 0;
+    font-family: 'Microsoft New Tai Lue', sans-serif, monospace;
+    color: white;
+}
+.descripcion h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 70px 0 0;
+}
+.boton{
+    border-radius: 50px;
+    height: 45px;
+    width: 263px;
+    background-color: #ee005f;
+    border: none;
+    margin: 37px 0 0 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.informacion{
+    background-color: rgba(255, 255, 255, 0.034);
+}
+.bloquesInformacion{
+    height: inherit;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Microsoft New Tai Lue', sans-serif, monospace;
+    color: white;
+}
+.background{
+    background-image: url(../assets/img/Fondo.jpg);
+    background-size: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding-bottom: 23px;
+}
+.Fecha{
+    display: flex;
+    align-items: center;
+}
+.descpFecha{
+    margin:0 0 0 39px;
+}
+.Ubicacion{
+    display: flex;
+    align-items: center;
+}
+.descpUbicacion{
+    margin:0 0 0 39px;
+}
+.Entrada{
+    display: flex;
+    align-items: center;
+}
+.descpEntrada{
+    margin:0 0 0 39px;
+}
+.bloquesContactos{
+    height: 116px;
+    padding-top: 22px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Microsoft New Tai Lue', sans-serif, monospace;
+    color: black;
+}
+.RedesSociales{
+    background-image: url(../assets/img/redes_sociales.png);
+    background-repeat: no-repeat;
+}
+.Empresa{
+    margin: 46px 0 0 0;
+}
+.lVertical{
+    border-left: 1px solid #333;
+    height: 70%;
+}
+.lVerticalInfo{
+    border-left: 1px solid #333;
+    height: 70%;
+}
+.Social{
+    display: inline-block;
+    height: 25px;
+    width: 23px;
+    margin-right:14px;
+}
